@@ -3,11 +3,12 @@ pipeline {
         stages {
             stage ('Run Tests'){
                 steps {
-                    sh"./mvn clean install"
+
                     script {
+                        sh "./mvn clean install"
                            }
                        }
-                                }
+                    }
                 }
            }
 
