@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AlertsPage;
 
-public class AlertsTests extends BaseTests {
+public class  AlertsTests extends BaseTests {
 
    @Test
     public void getJSAlert(){

@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AutomationHeroApp" />
+        <module name="AutomationJavaTraining" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AutomationHeroApp" target="14" />
+      <module name="AutomationJavaTraining" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>
