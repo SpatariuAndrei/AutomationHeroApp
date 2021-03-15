@@ -13,8 +13,8 @@ public class horizontalSliderTest extends BaseTests {
         horizontalSliderPage.setHorizontalValue(2);
         Assert.assertEquals(horizontalSliderPage.getRangeText(),"2" ,"WrongValue");
 
-        horizontalSliderPage.setHorizontalValue(3);
-        Assert.assertEquals(horizontalSliderPage.getRangeText(),"3" ,"WrongValue");
+//        horizontalSliderPage.setHorizontalValue(3);
+  //      Assert.assertEquals(horizontalSliderPage.getRangeText(),"3" ,"WrongValue");
     }
 
 
