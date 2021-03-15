@@ -11,8 +11,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="AutomationHeroApp" target="14" />
       <module name="AutomationJavaTraining" target="14" />
+      <module name="wrapper" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>

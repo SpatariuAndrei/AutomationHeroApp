@@ -6,6 +6,7 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -20,8 +21,10 @@ public class BaseTests {
     @BeforeClass
     public void setUp(){
 
-        System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+
         driver = new ChromeDriver();
+
         goHome();
         homePage = new HomePage(driver);
         driver.manage().window().maximize();

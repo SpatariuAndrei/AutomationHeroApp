@@ -16,7 +16,7 @@ public class dropdownTest extends BaseTests {
         Assert.assertTrue(selectedOptions.contains(option),"Option not selected");
      }
     @Test
-    public void selectOption2SropdownTest(){
+    public void selectOption2dropdownTest(){
         var dropdownpage = homePage.clickDropDownLink();
         String option2 = "Option 2";
         dropdownpage.clickFromDropDownList(option2);
