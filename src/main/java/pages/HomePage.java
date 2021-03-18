@@ -3,12 +3,11 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
     private WebDriver driver;
-
-
 
 
     public HomePage(WebDriver driver) {
@@ -16,57 +15,75 @@ public class HomePage {
         this.driver = driver;
     }
 
-    public void clickLink(String linkText){
+    public void clickLink(String linkText) {
         driver.findElement(By.linkText(linkText)).click();
 
     }
 
-    public LoginPage clickFormAuthentificationLink(){
-      clickLink("Form Authentication");
-      return new LoginPage(driver);
+    public LoginPage clickFormAuthentificationLink() {
+        clickLink("Form Authentication");
+        return new LoginPage(driver);
 
 
     }
 
-    public DropdownPage clickDropDownLink(){
+    public DropdownPage clickDropDownLink() {
         clickLink("Dropdown");
         return new DropdownPage(driver);
 
 
     }
-    public ForgotPasswordPage clickForgotPasswordLink(){
+
+    public ForgotPasswordPage clickForgotPasswordLink() {
         clickLink("Forgot Password");
         return new ForgotPasswordPage(driver);
 
 
     }
-    public HooverPage clickHooverLink(){
+
+    public HooverPage clickHooverLink() {
         clickLink("Hovers");
         return new HooverPage(driver);
 
 
     }
-    public KeyPressesPage clickKeyPressesLink(){
+
+    public KeyPressesPage clickKeyPressesLink() {
         clickLink("Key Presses");
         return new KeyPressesPage(driver);
 
 
     }
-    public HorizontalSliderPage clickHorizontalSliderLink(){
+
+    public HorizontalSliderPage clickHorizontalSliderLink() {
         clickLink("Horizontal Slider");
         return new HorizontalSliderPage(driver);
 
 
     }
-    public AlertsPage clickOnJavaScriptAlert (){
+
+    public AlertsPage clickOnJavaScriptAlert() {
         clickLink("JavaScript Alerts");
         return new AlertsPage(driver);
 
     }
-    public FileUploadPage clickFileUploadLink(){
+
+    public FileUploadPage clickFileUploadLink() {
         clickLink("File Upload");
         return new FileUploadPage(driver);
 
+    }
+
+    public EntryAdPage clickEntryAdLink() {
+        clickLink("Entry Ad");
+
+        return new EntryAdPage(driver);
+
+    }
+
+    public ContextMenuPage clickContextmenuLink() {
+        clickLink("Context Menu");
+        return new ContextMenuPage(driver);
     }
 
 }

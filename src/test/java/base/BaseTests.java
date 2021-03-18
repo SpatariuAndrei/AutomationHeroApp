@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeMethod;
 import pages.HomePage;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class BaseTests {
     private WebDriver driver;
@@ -24,7 +25,7 @@ public class BaseTests {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
 
         driver = new ChromeDriver();
-
+     //   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         goHome();
         homePage = new HomePage(driver);
         driver.manage().window().maximize();

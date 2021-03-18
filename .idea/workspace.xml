@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8046e423-0eab-4564-854b-119fe8ffbf79" name="Default Changelist" comment="Jenkins commit1">
+    <list default="true" id="8046e423-0eab-4564-854b-119fe8ffbf79" name="Default Changelist" comment="./mvnw commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContextMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EntryAdPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ContextMenuPage/ContextMenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EntryAdPageTest/EntryAdTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,42 +54,7 @@
       <recent name="C:\Users\aspatariu\IdeaProjects\AutomationHeroApp\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertsTests.getJSConfirm">
-    <configuration name="AlertsTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="wrapper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertsTests.getJSAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="wrapper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
-      <option name="METHOD_NAME" value="getJSAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.EntryAdTest.modalWindowTest">
     <configuration name="AlertsTests.getJSConfirm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationJavaTraining" />
       <extension name="coverage">
@@ -94,8 +73,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadTests.testFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="wrapper" />
+    <configuration name="ContextMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationJavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ContextMenuPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ContextMenuPage" />
+      <option name="MAIN_CLASS_NAME" value="ContextMenuPage.ContextMenuTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContextMenuTest.contextBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationJavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ContextMenuPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ContextMenuPage" />
+      <option name="MAIN_CLASS_NAME" value="ContextMenuPage.ContextMenuTest" />
+      <option name="METHOD_NAME" value="contextBoxTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntryAdTest.modalWindowTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationJavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EntryAdPageTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EntryAdPageTest" />
+      <option name="MAIN_CLASS_NAME" value="EntryAdPageTest.EntryAdTest" />
+      <option name="METHOD_NAME" value="modalWindowTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUploadTests.testFileUpload (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationJavaTraining" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="FileUploadTests.*" />
@@ -112,31 +144,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dropdownTest.selectDromDropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="wrapper" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dropdown.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dropdown" />
-      <option name="MAIN_CLASS_NAME" value="dropdown.dropdownTest" />
-      <option name="METHOD_NAME" value="selectDromDropdownTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EntryAdTest.modalWindowTest" />
+        <item itemvalue="TestNG.ContextMenuTest.contextBoxTest" />
+        <item itemvalue="TestNG.ContextMenuTest" />
+        <item itemvalue="TestNG.FileUploadTests.testFileUpload (1)" />
         <item itemvalue="TestNG.AlertsTests.getJSConfirm" />
-        <item itemvalue="TestNG.AlertsTests.getJSAlert" />
-        <item itemvalue="TestNG.AlertsTests" />
-        <item itemvalue="TestNG.dropdownTest.selectDromDropdownTest" />
-        <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615832276010</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="./mvnw commit">
+      <created>1615881126681</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615881126681</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +247,7 @@
     </ignored-roots>
     <MESSAGE value="Jenkins commit" />
     <MESSAGE value="Jenkins commit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkins commit1" />
+    <MESSAGE value="./mvnw commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="./mvnw commit" />
   </component>
 </project>
