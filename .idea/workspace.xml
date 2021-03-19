@@ -5,14 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8046e423-0eab-4564-854b-119fe8ffbf79" name="Default Changelist" comment="./mvnw commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContextMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EntryAdPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ContextMenuPage/ContextMenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EntryAdPageTest/EntryAdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AlertsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ContextMenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/EntryAdPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/FileUploadPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ForgotPasswordPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HooverPage$FigureCaption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HooverPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HorizontalSliderPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/KeyPressesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PasswordConfirmationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ContextMenuPage/ContextMenuTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EntryAdPageTest/EntryAdTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FileUploadTests/FileUploadTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Hoover/HooverTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Keys/keyPressesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/alerts/AlertsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dropdown/dropdownTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/forgotPassword/forgotPasswordTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/horizontalSlider/horizontalSliderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/login/loginTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +48,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
   <component name="ProjectId" id="1pbWsQC17wKjbB7rgdOxb9u6tiS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,17 +73,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aspatariu\IdeaProjects\AutomationHeroApp\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EntryAdTest.modalWindowTest">
+  <component name="RunManager" selected="TestNG.AlertsTests.getJSConfirm">
     <configuration name="AlertsTests.getJSConfirm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationJavaTraining" />
       <extension name="coverage">
@@ -146,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AlertsTests.getJSConfirm" />
         <item itemvalue="TestNG.EntryAdTest.modalWindowTest" />
         <item itemvalue="TestNG.ContextMenuTest.contextBoxTest" />
         <item itemvalue="TestNG.ContextMenuTest" />
         <item itemvalue="TestNG.FileUploadTests.testFileUpload (1)" />
-        <item itemvalue="TestNG.AlertsTests.getJSConfirm" />
       </list>
     </recent_temporary>
   </component>
@@ -249,5 +278,16 @@
     <MESSAGE value="Jenkins commit1" />
     <MESSAGE value="./mvnw commit" />
     <option name="LAST_COMMIT_MESSAGE" value="./mvnw commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/alerts/AlertsTests.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
