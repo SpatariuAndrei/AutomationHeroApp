@@ -1,0 +1,11 @@
+forgotPassword\forgotPasswordTest.class
+Keys\keyPressesTest.class
+dropdown\dropdownTest.class
+ContextMenuPage\ContextMenuTest.class
+alerts\AlertsTests.class
+horizontalSlider\horizontalSliderTest.class
+base\BaseTests.class
+login\loginTests.class
+EntryAdPageTest\EntryAdTest.class
+Hoover\HooverTests.class
+FileUploadTests\FileUploadTests.class
