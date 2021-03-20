@@ -2,138 +2,138 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-20T09:10:59Z" name="Command line suite" finished-at="2021-03-20T09:12:07Z" duration-ms="67425">
+  <suite started-at="2021-03-20T09:28:24Z" name="Command line suite" finished-at="2021-03-20T09:29:20Z" duration-ms="55199">
     <groups>
     </groups>
-    <test started-at="2021-03-20T09:10:59Z" name="Command line test" finished-at="2021-03-20T09:12:07Z" duration-ms="67425">
+    <test started-at="2021-03-20T09:28:24Z" name="Command line test" finished-at="2021-03-20T09:29:20Z" duration-ms="55199">
       <class name="forgotPassword.forgotPasswordTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:forgotPassword.forgotPasswordTest@36b4cef0]" started-at="2021-03-20T09:11:33Z" name="setUp" finished-at="2021-03-20T09:11:40Z" duration-ms="7122" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:forgotPassword.forgotPasswordTest@36b4cef0]" started-at="2021-03-20T09:28:54Z" name="setUp" finished-at="2021-03-20T09:29:00Z" duration-ms="5907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:forgotPassword.forgotPasswordTest@36b4cef0]" started-at="2021-03-20T09:11:40Z" name="goHome" finished-at="2021-03-20T09:11:41Z" duration-ms="379" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:forgotPassword.forgotPasswordTest@36b4cef0]" started-at="2021-03-20T09:29:00Z" name="goHome" finished-at="2021-03-20T09:29:00Z" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="passswordRecoveryTest()[pri:0, instance:forgotPassword.forgotPasswordTest@36b4cef0]" started-at="2021-03-20T09:11:41Z" name="passswordRecoveryTest" finished-at="2021-03-20T09:11:44Z" duration-ms="3245" status="PASS">
+        <test-method signature="passswordRecoveryTest()[pri:0, instance:forgotPassword.forgotPasswordTest@36b4cef0]" started-at="2021-03-20T09:29:00Z" name="passswordRecoveryTest" finished-at="2021-03-20T09:29:01Z" duration-ms="1199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passswordRecoveryTest -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:forgotPassword.forgotPasswordTest@36b4cef0]" started-at="2021-03-20T09:11:44Z" name="driverQuit" finished-at="2021-03-20T09:11:45Z" duration-ms="864" status="PASS">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:forgotPassword.forgotPasswordTest@36b4cef0]" started-at="2021-03-20T09:29:01Z" name="driverQuit" finished-at="2021-03-20T09:29:02Z" duration-ms="756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
       </class> <!-- forgotPassword.forgotPasswordTest -->
       <class name="horizontalSlider.horizontalSliderTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:horizontalSlider.horizontalSliderTest@fad74ee]" started-at="2021-03-20T09:11:45Z" name="setUp" finished-at="2021-03-20T09:11:52Z" duration-ms="6736" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:horizontalSlider.horizontalSliderTest@fad74ee]" started-at="2021-03-20T09:29:02Z" name="setUp" finished-at="2021-03-20T09:29:08Z" duration-ms="5810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:horizontalSlider.horizontalSliderTest@fad74ee]" started-at="2021-03-20T09:11:52Z" name="goHome" finished-at="2021-03-20T09:11:52Z" duration-ms="421" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:horizontalSlider.horizontalSliderTest@fad74ee]" started-at="2021-03-20T09:29:08Z" name="goHome" finished-at="2021-03-20T09:29:08Z" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="sliderTest()[pri:0, instance:horizontalSlider.horizontalSliderTest@fad74ee]" started-at="2021-03-20T09:11:52Z" name="sliderTest" finished-at="2021-03-20T09:11:53Z" duration-ms="1468" status="PASS">
+        <test-method signature="sliderTest()[pri:0, instance:horizontalSlider.horizontalSliderTest@fad74ee]" started-at="2021-03-20T09:29:08Z" name="sliderTest" finished-at="2021-03-20T09:29:09Z" duration-ms="1270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sliderTest -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:horizontalSlider.horizontalSliderTest@fad74ee]" started-at="2021-03-20T09:11:53Z" name="driverQuit" finished-at="2021-03-20T09:11:54Z" duration-ms="774" status="PASS">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:horizontalSlider.horizontalSliderTest@fad74ee]" started-at="2021-03-20T09:29:09Z" name="driverQuit" finished-at="2021-03-20T09:29:10Z" duration-ms="760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
       </class> <!-- horizontalSlider.horizontalSliderTest -->
       <class name="Keys.keyPressesTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:11:54Z" name="setUp" finished-at="2021-03-20T09:12:02Z" duration-ms="7986" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:29:10Z" name="setUp" finished-at="2021-03-20T09:29:16Z" duration-ms="6354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:12:02Z" name="goHome" finished-at="2021-03-20T09:12:03Z" duration-ms="357" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:29:16Z" name="goHome" finished-at="2021-03-20T09:29:17Z" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testBackSpace()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:12:03Z" name="testBackSpace" finished-at="2021-03-20T09:12:03Z" duration-ms="640" status="PASS">
+        <test-method signature="testBackSpace()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:29:17Z" name="testBackSpace" finished-at="2021-03-20T09:29:17Z" duration-ms="469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBackSpace -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:12:03Z" name="goHome" finished-at="2021-03-20T09:12:04Z" duration-ms="353" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:29:17Z" name="goHome" finished-at="2021-03-20T09:29:17Z" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testDot()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:12:04Z" name="testDot" finished-at="2021-03-20T09:12:04Z" duration-ms="781" status="PASS">
+        <test-method signature="testDot()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:29:17Z" name="testDot" finished-at="2021-03-20T09:29:18Z" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDot -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:12:04Z" name="goHome" finished-at="2021-03-20T09:12:05Z" duration-ms="391" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:29:18Z" name="goHome" finished-at="2021-03-20T09:29:18Z" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testHashtag()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:12:05Z" name="testHashtag" finished-at="2021-03-20T09:12:05Z" duration-ms="656" status="PASS">
+        <test-method signature="testHashtag()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:29:18Z" name="testHashtag" finished-at="2021-03-20T09:29:19Z" duration-ms="534" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHashtag -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:12:05Z" name="driverQuit" finished-at="2021-03-20T09:12:07Z" duration-ms="1283" status="PASS">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:Keys.keyPressesTest@1a1d6a08]" started-at="2021-03-20T09:29:19Z" name="driverQuit" finished-at="2021-03-20T09:29:20Z" duration-ms="804" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
       </class> <!-- Keys.keyPressesTest -->
       <class name="EntryAdPageTest.EntryAdTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:EntryAdPageTest.EntryAdTest@3d921e20]" started-at="2021-03-20T09:11:23Z" name="setUp" finished-at="2021-03-20T09:11:31Z" duration-ms="7414" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:EntryAdPageTest.EntryAdTest@3d921e20]" started-at="2021-03-20T09:28:45Z" name="setUp" finished-at="2021-03-20T09:28:51Z" duration-ms="6037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:EntryAdPageTest.EntryAdTest@3d921e20]" started-at="2021-03-20T09:11:31Z" name="goHome" finished-at="2021-03-20T09:11:31Z" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:EntryAdPageTest.EntryAdTest@3d921e20]" started-at="2021-03-20T09:28:51Z" name="goHome" finished-at="2021-03-20T09:28:52Z" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="modalWindowTest()[pri:0, instance:EntryAdPageTest.EntryAdTest@3d921e20]" started-at="2021-03-20T09:11:31Z" name="modalWindowTest" finished-at="2021-03-20T09:11:32Z" duration-ms="1443" status="PASS">
+        <test-method signature="modalWindowTest()[pri:0, instance:EntryAdPageTest.EntryAdTest@3d921e20]" started-at="2021-03-20T09:28:52Z" name="modalWindowTest" finished-at="2021-03-20T09:28:53Z" duration-ms="1257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modalWindowTest -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:EntryAdPageTest.EntryAdTest@3d921e20]" started-at="2021-03-20T09:11:32Z" name="driverQuit" finished-at="2021-03-20T09:11:33Z" duration-ms="753" status="PASS">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:EntryAdPageTest.EntryAdTest@3d921e20]" started-at="2021-03-20T09:28:53Z" name="driverQuit" finished-at="2021-03-20T09:28:54Z" duration-ms="776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
       </class> <!-- EntryAdPageTest.EntryAdTest -->
       <class name="dropdown.dropdownTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:11:13Z" name="setUp" finished-at="2021-03-20T09:11:20Z" duration-ms="7112" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:28:37Z" name="setUp" finished-at="2021-03-20T09:28:43Z" duration-ms="5989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:11:20Z" name="goHome" finished-at="2021-03-20T09:11:21Z" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:28:43Z" name="goHome" finished-at="2021-03-20T09:28:43Z" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="selectDromDropdownTest()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:11:21Z" name="selectDromDropdownTest" finished-at="2021-03-20T09:11:21Z" duration-ms="907" status="PASS">
+        <test-method signature="selectDromDropdownTest()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:28:43Z" name="selectDromDropdownTest" finished-at="2021-03-20T09:28:44Z" duration-ms="628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDromDropdownTest -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:11:21Z" name="goHome" finished-at="2021-03-20T09:11:22Z" duration-ms="389" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:28:44Z" name="goHome" finished-at="2021-03-20T09:28:44Z" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="selectOption2dropdownTest()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:11:22Z" name="selectOption2dropdownTest" finished-at="2021-03-20T09:11:22Z" duration-ms="613" status="PASS">
+        <test-method signature="selectOption2dropdownTest()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:28:44Z" name="selectOption2dropdownTest" finished-at="2021-03-20T09:28:45Z" duration-ms="508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectOption2dropdownTest -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:11:22Z" name="driverQuit" finished-at="2021-03-20T09:11:23Z" duration-ms="749" status="PASS">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:dropdown.dropdownTest@3234e239]" started-at="2021-03-20T09:28:45Z" name="driverQuit" finished-at="2021-03-20T09:28:45Z" duration-ms="773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
       </class> <!-- dropdown.dropdownTest -->
       <class name="ContextMenuPage.ContextMenuTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ContextMenuPage.ContextMenuTest@c46bcd4]" started-at="2021-03-20T09:10:59Z" name="setUp" finished-at="2021-03-20T09:11:11Z" duration-ms="11883" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ContextMenuPage.ContextMenuTest@c46bcd4]" started-at="2021-03-20T09:28:24Z" name="setUp" finished-at="2021-03-20T09:28:35Z" duration-ms="10587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:ContextMenuPage.ContextMenuTest@c46bcd4]" started-at="2021-03-20T09:11:11Z" name="goHome" finished-at="2021-03-20T09:11:11Z" duration-ms="264" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:ContextMenuPage.ContextMenuTest@c46bcd4]" started-at="2021-03-20T09:28:35Z" name="goHome" finished-at="2021-03-20T09:28:35Z" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="contextBoxTest()[pri:0, instance:ContextMenuPage.ContextMenuTest@c46bcd4]" started-at="2021-03-20T09:11:11Z" name="contextBoxTest" finished-at="2021-03-20T09:11:12Z" duration-ms="934" status="PASS">
+        <test-method signature="contextBoxTest()[pri:0, instance:ContextMenuPage.ContextMenuTest@c46bcd4]" started-at="2021-03-20T09:28:35Z" name="contextBoxTest" finished-at="2021-03-20T09:28:36Z" duration-ms="776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contextBoxTest -->
-        <test-method is-config="true" signature="driverQuit()[pri:0, instance:ContextMenuPage.ContextMenuTest@c46bcd4]" started-at="2021-03-20T09:11:12Z" name="driverQuit" finished-at="2021-03-20T09:11:13Z" duration-ms="866" status="PASS">
+        <test-method is-config="true" signature="driverQuit()[pri:0, instance:ContextMenuPage.ContextMenuTest@c46bcd4]" started-at="2021-03-20T09:28:36Z" name="driverQuit" finished-at="2021-03-20T09:28:37Z" duration-ms="812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverQuit -->
