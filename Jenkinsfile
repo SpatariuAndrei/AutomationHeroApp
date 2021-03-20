@@ -7,7 +7,7 @@ pipeline {
                 steps {
 
                     script {
-                        sh "./mvnw clean install"
+                        sh "mvn clean install"
                            }
                        }
                     }
