@@ -4,23 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8046e423-0eab-4564-854b-119fe8ffbf79" name="Default Changelist" comment="New">
+    <list default="true" id="8046e423-0eab-4564-854b-119fe8ffbf79" name="Default Changelist" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/AlertsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ContextMenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/EntryAdPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/FileUploadPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ForgotPasswordPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HooverPage$FigureCaption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HooverPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HorizontalSliderPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/KeyPressesPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/PasswordConfirmationPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dropdown/dropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dropdown/dropdownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ContextMenuPage/ContextMenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContextMenuPage/ContextMenuTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EntryAdPageTest/EntryAdTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EntryAdPageTest/EntryAdTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FileUploadTests/FileUploadTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FileUploadTests/FileUploadTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Hoover/HooverTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Hoover/HooverTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Keys/keyPressesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Keys/keyPressesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/alerts/AlertsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/alerts/AlertsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dropdown/dropdownTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dropdown/dropdownTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/forgotPassword/forgotPasswordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/forgotPassword/forgotPasswordTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/horizontalSlider/horizontalSliderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/horizontalSlider/horizontalSliderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/login/loginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/loginTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <recent name="C:\Users\aspatariu\IdeaProjects\AutomationHeroApp\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContextMenuTest">
+  <component name="RunManager" selected="TestNG.dropdownTest">
     <configuration name="AlertsTests.getJSConfirm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationJavaTraining" />
       <extension name="coverage">
@@ -141,18 +138,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadTests.testFileUpload (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="dropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileUploadTests.*" />
+          <option name="PATTERN" value="dropdown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="FileUploadTests" />
-      <option name="MAIN_CLASS_NAME" value="FileUploadTests.FileUploadTests" />
-      <option name="METHOD_NAME" value="testFileUpload" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="dropdown" />
+      <option name="MAIN_CLASS_NAME" value="dropdown.dropdownTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -161,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.dropdownTest" />
         <item itemvalue="TestNG.ContextMenuTest" />
         <item itemvalue="TestNG.ContextMenuTest.contextBoxTest" />
         <item itemvalue="TestNG.AlertsTests.getJSConfirm" />
         <item itemvalue="TestNG.EntryAdTest.modalWindowTest" />
-        <item itemvalue="TestNG.FileUploadTests.testFileUpload (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616234364173</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="1">
+      <created>1616234984804</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1616234984804</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,7 +338,8 @@
     <MESSAGE value="./mvnw commit" />
     <MESSAGE value="12" />
     <MESSAGE value="New" />
-    <option name="LAST_COMMIT_MESSAGE" value="New" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
