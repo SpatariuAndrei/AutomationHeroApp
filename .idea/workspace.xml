@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8046e423-0eab-4564-854b-119fe8ffbf79" name="Default Changelist" comment="13">
+    <list default="true" id="8046e423-0eab-4564-854b-119fe8ffbf79" name="Default Changelist" comment="New">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/AutomationJavaTraining-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AutomationJavaTraining-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
@@ -267,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616159548344</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="New">
+      <created>1616225806219</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616225806219</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,6 +296,7 @@
     <MESSAGE value="Jenkins commit" />
     <MESSAGE value="Jenkins commit1" />
     <MESSAGE value="./mvnw commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="./mvnw commit" />
+    <MESSAGE value="New" />
+    <option name="LAST_COMMIT_MESSAGE" value="New" />
   </component>
 </project>

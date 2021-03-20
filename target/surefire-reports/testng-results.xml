@@ -2,114 +2,114 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-19T13:16:04Z" name="Command line suite" finished-at="2021-03-19T13:17:08Z" duration-ms="63395">
+  <suite started-at="2021-03-20T07:39:27Z" name="Command line suite" finished-at="2021-03-20T07:40:33Z" duration-ms="65426">
     <groups>
     </groups>
-    <test started-at="2021-03-19T13:16:04Z" name="Command line test" finished-at="2021-03-19T13:17:08Z" duration-ms="63395">
+    <test started-at="2021-03-20T07:39:27Z" name="Command line test" finished-at="2021-03-20T07:40:33Z" duration-ms="65426">
       <class name="forgotPassword.forgotPasswordTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:forgotPassword.forgotPasswordTest@3234e239]" started-at="2021-03-19T13:16:35Z" name="setUp" finished-at="2021-03-19T13:16:44Z" duration-ms="8722" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:forgotPassword.forgotPasswordTest@3234e239]" started-at="2021-03-20T07:40:01Z" name="setUp" finished-at="2021-03-20T07:40:10Z" duration-ms="8981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:forgotPassword.forgotPasswordTest@3234e239]" started-at="2021-03-19T13:16:44Z" name="goHome" finished-at="2021-03-19T13:16:44Z" duration-ms="296" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:forgotPassword.forgotPasswordTest@3234e239]" started-at="2021-03-20T07:40:10Z" name="goHome" finished-at="2021-03-20T07:40:10Z" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="passswordRecoveryTest()[pri:0, instance:forgotPassword.forgotPasswordTest@3234e239]" started-at="2021-03-19T13:16:44Z" name="passswordRecoveryTest" finished-at="2021-03-19T13:16:45Z" duration-ms="860" status="PASS">
+        <test-method signature="passswordRecoveryTest()[pri:0, instance:forgotPassword.forgotPasswordTest@3234e239]" started-at="2021-03-20T07:40:10Z" name="passswordRecoveryTest" finished-at="2021-03-20T07:40:11Z" duration-ms="1067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passswordRecoveryTest -->
       </class> <!-- forgotPassword.forgotPasswordTest -->
       <class name="horizontalSlider.horizontalSliderTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:horizontalSlider.horizontalSliderTest@3d921e20]" started-at="2021-03-19T13:16:45Z" name="setUp" finished-at="2021-03-19T13:16:53Z" duration-ms="7208" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:horizontalSlider.horizontalSliderTest@3d921e20]" started-at="2021-03-20T07:40:11Z" name="setUp" finished-at="2021-03-20T07:40:22Z" duration-ms="10455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:horizontalSlider.horizontalSliderTest@3d921e20]" started-at="2021-03-19T13:16:53Z" name="goHome" finished-at="2021-03-19T13:16:53Z" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:horizontalSlider.horizontalSliderTest@3d921e20]" started-at="2021-03-20T07:40:22Z" name="goHome" finished-at="2021-03-20T07:40:22Z" duration-ms="273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="sliderTest()[pri:0, instance:horizontalSlider.horizontalSliderTest@3d921e20]" started-at="2021-03-19T13:16:53Z" name="sliderTest" finished-at="2021-03-19T13:16:54Z" duration-ms="835" status="PASS">
+        <test-method signature="sliderTest()[pri:0, instance:horizontalSlider.horizontalSliderTest@3d921e20]" started-at="2021-03-20T07:40:22Z" name="sliderTest" finished-at="2021-03-20T07:40:23Z" duration-ms="1069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sliderTest -->
       </class> <!-- horizontalSlider.horizontalSliderTest -->
       <class name="Keys.keyPressesTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-19T13:16:54Z" name="setUp" finished-at="2021-03-19T13:17:04Z" duration-ms="10628" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-20T07:40:23Z" name="setUp" finished-at="2021-03-20T07:40:30Z" duration-ms="7377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-19T13:17:04Z" name="goHome" finished-at="2021-03-19T13:17:05Z" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-20T07:40:30Z" name="goHome" finished-at="2021-03-20T07:40:31Z" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testBackSpace()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-19T13:17:05Z" name="testBackSpace" finished-at="2021-03-19T13:17:05Z" duration-ms="655" status="PASS">
+        <test-method signature="testBackSpace()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-20T07:40:31Z" name="testBackSpace" finished-at="2021-03-20T07:40:31Z" duration-ms="542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBackSpace -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-19T13:17:05Z" name="goHome" finished-at="2021-03-19T13:17:06Z" duration-ms="322" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-20T07:40:31Z" name="goHome" finished-at="2021-03-20T07:40:31Z" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testDot()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-19T13:17:06Z" name="testDot" finished-at="2021-03-19T13:17:06Z" duration-ms="656" status="PASS">
+        <test-method signature="testDot()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-20T07:40:31Z" name="testDot" finished-at="2021-03-20T07:40:32Z" duration-ms="504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDot -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-19T13:17:06Z" name="goHome" finished-at="2021-03-19T13:17:07Z" duration-ms="542" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-20T07:40:32Z" name="goHome" finished-at="2021-03-20T07:40:32Z" duration-ms="477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testHashtag()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-19T13:17:07Z" name="testHashtag" finished-at="2021-03-19T13:17:08Z" duration-ms="820" status="PASS">
+        <test-method signature="testHashtag()[pri:0, instance:Keys.keyPressesTest@36b4cef0]" started-at="2021-03-20T07:40:32Z" name="testHashtag" finished-at="2021-03-20T07:40:33Z" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHashtag -->
       </class> <!-- Keys.keyPressesTest -->
       <class name="EntryAdPageTest.EntryAdTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:EntryAdPageTest.EntryAdTest@c46bcd4]" started-at="2021-03-19T13:16:27Z" name="setUp" finished-at="2021-03-19T13:16:34Z" duration-ms="7306" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:EntryAdPageTest.EntryAdTest@c46bcd4]" started-at="2021-03-20T07:39:50Z" name="setUp" finished-at="2021-03-20T07:39:59Z" duration-ms="9035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:EntryAdPageTest.EntryAdTest@c46bcd4]" started-at="2021-03-19T13:16:34Z" name="goHome" finished-at="2021-03-19T13:16:34Z" duration-ms="334" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:EntryAdPageTest.EntryAdTest@c46bcd4]" started-at="2021-03-20T07:39:59Z" name="goHome" finished-at="2021-03-20T07:39:59Z" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="modalWindowTest()[pri:0, instance:EntryAdPageTest.EntryAdTest@c46bcd4]" started-at="2021-03-19T13:16:34Z" name="modalWindowTest" finished-at="2021-03-19T13:16:35Z" duration-ms="1259" status="PASS">
+        <test-method signature="modalWindowTest()[pri:0, instance:EntryAdPageTest.EntryAdTest@c46bcd4]" started-at="2021-03-20T07:39:59Z" name="modalWindowTest" finished-at="2021-03-20T07:40:01Z" duration-ms="1338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modalWindowTest -->
       </class> <!-- EntryAdPageTest.EntryAdTest -->
       <class name="dropdown.dropdownTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:dropdown.dropdownTest@42f93a98]" started-at="2021-03-19T13:16:16Z" name="setUp" finished-at="2021-03-19T13:16:24Z" duration-ms="8311" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dropdown.dropdownTest@42f93a98]" started-at="2021-03-20T07:39:40Z" name="setUp" finished-at="2021-03-20T07:39:48Z" duration-ms="8048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.dropdownTest@42f93a98]" started-at="2021-03-19T13:16:24Z" name="goHome" finished-at="2021-03-19T13:16:24Z" duration-ms="538" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.dropdownTest@42f93a98]" started-at="2021-03-20T07:39:48Z" name="goHome" finished-at="2021-03-20T07:39:49Z" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="selectDromDropdownTest()[pri:0, instance:dropdown.dropdownTest@42f93a98]" started-at="2021-03-19T13:16:24Z" name="selectDromDropdownTest" finished-at="2021-03-19T13:16:25Z" duration-ms="881" status="PASS">
+        <test-method signature="selectDromDropdownTest()[pri:0, instance:dropdown.dropdownTest@42f93a98]" started-at="2021-03-20T07:39:49Z" name="selectDromDropdownTest" finished-at="2021-03-20T07:39:49Z" duration-ms="628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDromDropdownTest -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.dropdownTest@42f93a98]" started-at="2021-03-19T13:16:25Z" name="goHome" finished-at="2021-03-19T13:16:26Z" duration-ms="433" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.dropdownTest@42f93a98]" started-at="2021-03-20T07:39:49Z" name="goHome" finished-at="2021-03-20T07:39:49Z" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="selectOption2dropdownTest()[pri:0, instance:dropdown.dropdownTest@42f93a98]" started-at="2021-03-19T13:16:26Z" name="selectOption2dropdownTest" finished-at="2021-03-19T13:16:27Z" duration-ms="787" status="PASS">
+        <test-method signature="selectOption2dropdownTest()[pri:0, instance:dropdown.dropdownTest@42f93a98]" started-at="2021-03-20T07:39:49Z" name="selectOption2dropdownTest" finished-at="2021-03-20T07:39:50Z" duration-ms="592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectOption2dropdownTest -->
       </class> <!-- dropdown.dropdownTest -->
       <class name="ContextMenuPage.ContextMenuTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ContextMenuPage.ContextMenuTest@631330c]" started-at="2021-03-19T13:16:04Z" name="setUp" finished-at="2021-03-19T13:16:14Z" duration-ms="9857" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ContextMenuPage.ContextMenuTest@631330c]" started-at="2021-03-20T07:39:28Z" name="setUp" finished-at="2021-03-20T07:39:39Z" duration-ms="11484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:ContextMenuPage.ContextMenuTest@631330c]" started-at="2021-03-19T13:16:14Z" name="goHome" finished-at="2021-03-19T13:16:15Z" duration-ms="467" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:ContextMenuPage.ContextMenuTest@631330c]" started-at="2021-03-20T07:39:39Z" name="goHome" finished-at="2021-03-20T07:39:39Z" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="contextBoxTest()[pri:0, instance:ContextMenuPage.ContextMenuTest@631330c]" started-at="2021-03-19T13:16:15Z" name="contextBoxTest" finished-at="2021-03-19T13:16:16Z" duration-ms="1008" status="PASS">
+        <test-method signature="contextBoxTest()[pri:0, instance:ContextMenuPage.ContextMenuTest@631330c]" started-at="2021-03-20T07:39:39Z" name="contextBoxTest" finished-at="2021-03-20T07:39:40Z" duration-ms="945" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contextBoxTest -->
