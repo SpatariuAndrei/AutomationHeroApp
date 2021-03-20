@@ -42,11 +42,11 @@ public class BaseTests {
     }
 
 
-    /*@AfterClass
+    @AfterClass
     public void driverQuit(){
 
         driver.quit();
-    }*/
+    }
 
 
 }

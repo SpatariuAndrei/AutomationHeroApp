@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="TestSuite" time="7.237" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="TestSuite" time="10.696" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14.0.2+12-46"/>
@@ -60,13 +60,13 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ContextMenuPage.ContextMenuTest" name="contextBoxTest" time="0.948"/>
-  <testcase classname="dropdown.dropdownTest" name="selectDromDropdownTest" time="0.628"/>
-  <testcase classname="dropdown.dropdownTest" name="selectOption2dropdownTest" time="0.591"/>
-  <testcase classname="EntryAdPageTest.EntryAdTest" name="modalWindowTest" time="1.339"/>
-  <testcase classname="forgotPassword.forgotPasswordTest" name="passswordRecoveryTest" time="1.067"/>
-  <testcase classname="horizontalSlider.horizontalSliderTest" name="sliderTest" time="1.069"/>
-  <testcase classname="Keys.keyPressesTest" name="testBackSpace" time="0.543"/>
-  <testcase classname="Keys.keyPressesTest" name="testDot" time="0.504"/>
-  <testcase classname="Keys.keyPressesTest" name="testHashtag" time="0.548"/>
+  <testcase classname="ContextMenuPage.ContextMenuTest" name="contextBoxTest" time="0.942"/>
+  <testcase classname="dropdown.dropdownTest" name="selectDromDropdownTest" time="0.908"/>
+  <testcase classname="dropdown.dropdownTest" name="selectOption2dropdownTest" time="0.611"/>
+  <testcase classname="EntryAdPageTest.EntryAdTest" name="modalWindowTest" time="1.443"/>
+  <testcase classname="forgotPassword.forgotPasswordTest" name="passswordRecoveryTest" time="3.245"/>
+  <testcase classname="horizontalSlider.horizontalSliderTest" name="sliderTest" time="1.469"/>
+  <testcase classname="Keys.keyPressesTest" name="testBackSpace" time="0.64"/>
+  <testcase classname="Keys.keyPressesTest" name="testDot" time="0.781"/>
+  <testcase classname="Keys.keyPressesTest" name="testHashtag" time="0.657"/>
 </testsuite>
