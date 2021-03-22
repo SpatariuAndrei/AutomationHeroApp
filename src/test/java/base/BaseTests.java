@@ -24,7 +24,7 @@ public class BaseTests {
     @BeforeClass
     public void setUp() {
 
-        System.setProperty("WebdriverManager.chrome.driver", "src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("useAutomationExtension", false);
