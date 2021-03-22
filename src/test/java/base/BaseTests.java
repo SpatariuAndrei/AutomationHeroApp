@@ -23,7 +23,7 @@ public class BaseTests {
     @BeforeClass
     public void setUp() {
 
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        System.setProperty("WebdriverManager.chrome.driver", "src/main/resources/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         //   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -41,13 +41,13 @@ public class BaseTests {
     }
 
 
-    @AfterClass
-    public void driverQuit() {
+  //  @AfterClass
+    /*public void driverQuit() {
         if (driver != null) {
             driver.quit();
 
         }
 
 
-    }
+    }*/
 }
