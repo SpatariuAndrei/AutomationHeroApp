@@ -7,6 +7,7 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -25,7 +26,9 @@ public class BaseTests {
 
         System.setProperty("WebdriverManager.chrome.driver", "src/main/resources/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.setExperimentalOption("useAutomationExtension", false);
+        driver = new ChromeDriver(options);
         //   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         goHome();
         homePage = new HomePage(driver);
