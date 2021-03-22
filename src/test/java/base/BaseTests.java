@@ -1,5 +1,6 @@
 package base;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -20,33 +21,33 @@ public class BaseTests {
     protected HomePage homePage;
 
     @BeforeClass
-    public void setUp(){
+    public void setUp() {
 
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-     //   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         goHome();
         homePage = new HomePage(driver);
         driver.manage().window().maximize();
 
 
-
-
-
     }
+
     @BeforeMethod
-    public void goHome(){
+    public void goHome() {
         driver.get("http://the-internet.herokuapp.com/");
 
     }
 
 
     @AfterClass
-    public void driverQuit(){
+    public void driverQuit() {
+        if (driver != null) {
+            driver.quit();
 
-        driver.quit();
+        }
+
+
     }
-
-
 }
