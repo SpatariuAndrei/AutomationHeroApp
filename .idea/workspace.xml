@@ -6,30 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8046e423-0eab-4564-854b-119fe8ffbf79" name="Default Changelist" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/AlertsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AlertsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ContextMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ContextMenuPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/EntryAdPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/EntryAdPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/FileUploadPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/FileUploadPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ForgotPasswordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ForgotPasswordPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HooverPage$FigureCaption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HooverPage$FigureCaption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HooverPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HooverPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HorizontalSliderPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HorizontalSliderPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/KeyPressesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/KeyPressesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/PasswordConfirmationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/PasswordConfirmationPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ContextMenuPage/ContextMenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContextMenuPage/ContextMenuTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EntryAdPageTest/EntryAdTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EntryAdPageTest/EntryAdTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FileUploadTests/FileUploadTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FileUploadTests/FileUploadTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Hoover/HooverTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Hoover/HooverTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Keys/keyPressesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Keys/keyPressesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/alerts/AlertsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/alerts/AlertsTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dropdown/dropdownTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dropdown/dropdownTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/forgotPassword/forgotPasswordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/forgotPassword/forgotPasswordTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/horizontalSlider/horizontalSliderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/horizontalSlider/horizontalSliderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/login/loginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/login/loginTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +344,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616447719212</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="1">
+      <created>1616448135323</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1616448135323</updated>
+    </task>
+    <task id="LOCAL-00028" summary="1">
+      <created>1616448174281</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1616448174281</updated>
+    </task>
+    <task id="LOCAL-00029" summary="1">
+      <created>1616448275868</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1616448275868</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,6 +391,20 @@
     <MESSAGE value="New" />
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/ContextMenuPage/ContextMenuTest.java</url>
+          <line>10</line>
+          <properties class="ContextMenuPage.ContextMenuTest" method="contextBoxTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
