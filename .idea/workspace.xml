@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8046e423-0eab-4564-854b-119fe8ffbf79" name="Default Changelist" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="C:\Users\aspatariu\IdeaProjects\AutomationHeroApp\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EntryAdTest.modalWindowTest">
+  <component name="RunManager" selected="TestNG.dropdownTest.selectOption2dropdownTest">
     <configuration name="ContextMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationJavaTraining" />
       <extension name="coverage">
@@ -126,17 +126,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="horizontalSliderTest.sliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="dropdownTest.selectOption2dropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="horizontalSlider.*" />
+          <option name="PATTERN" value="dropdown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="horizontalSlider" />
-      <option name="MAIN_CLASS_NAME" value="horizontalSlider.horizontalSliderTest" />
-      <option name="METHOD_NAME" value="sliderTest" />
+      <option name="PACKAGE_NAME" value="dropdown" />
+      <option name="MAIN_CLASS_NAME" value="dropdown.dropdownTest" />
+      <option name="METHOD_NAME" value="selectOption2dropdownTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EntryAdTest.modalWindowTest" />
+        <item itemvalue="TestNG.dropdownTest.selectOption2dropdownTest" />
         <item itemvalue="TestNG.ContextMenuTest.contextBoxTest" />
+        <item itemvalue="TestNG.EntryAdTest.modalWindowTest" />
         <item itemvalue="TestNG.EntryAdTest" />
         <item itemvalue="TestNG.ContextMenuTest" />
-        <item itemvalue="TestNG.horizontalSliderTest.sliderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616486974588</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="1">
+      <created>1616686012394</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1616686012394</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

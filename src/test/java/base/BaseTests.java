@@ -45,7 +45,7 @@ public class BaseTests {
         }
         // System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
-        options.setExperimentalOption("useAutomationExtension", false);
+
         driver = new ChromeDriver(options);
         //   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         goHome();
