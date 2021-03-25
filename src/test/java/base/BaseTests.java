@@ -20,13 +20,31 @@ import java.util.concurrent.TimeUnit;
 public class BaseTests {
     private WebDriver driver;
     protected HomePage homePage;
+    private String headless = System.getenv("HEADLESS");
+
+
 
     @BeforeClass
     public void setUp() {
 
+
+
+        ChromeOptions options = new ChromeOptions();
+        if (null != headless ){
+            if (headless.equals(true)){
+                options.addArguments("--headless");
+                options.addArguments("--disable-gpu");
+                options.addArguments("start-maximized"); // open Browser in maximized mode
+                options.addArguments("disable-infobars"); // disabling infobars
+                options.addArguments("--disable-extensions"); // disabling extensions
+                options.addArguments("--disable-gpu"); // applicable to windows os only
+                options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
+                options.addArguments("--no-sandbox"); // Bypass OS security model
+                options.addArguments("window-size=1920,1080");
+            }
+        }
         // System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
         options.setExperimentalOption("useAutomationExtension", false);
         driver = new ChromeDriver(options);
         //   driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -44,13 +62,13 @@ public class BaseTests {
     }
 
 
-  //  @AfterClass
-    /*public void driverQuit() {
+   @AfterClass
+    public void driverQuit() {
         if (driver != null) {
             driver.quit();
 
         }
 
 
-    }*/
+    }
 }
