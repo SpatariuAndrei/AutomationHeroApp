@@ -29,7 +29,7 @@ public class DropdownPage {
 
    }
    public List<String> getSelectedOptions(){
-        List<WebElement>selectedElements = findDropdownElement().getAllSelectedOptions();
+        List<WebElement> selectedElements = findDropdownElement().getAllSelectedOptions();
         return selectedElements.stream().map(e->e.getText()).collect(Collectors.toList());
 
 

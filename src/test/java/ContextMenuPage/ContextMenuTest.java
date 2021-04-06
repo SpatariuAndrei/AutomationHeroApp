@@ -14,6 +14,7 @@ public class ContextMenuTest extends BaseTests {
         Assert.assertEquals(contextMenuPage.getPopUpText() ,"You selected a context menu","Not the expected text");
         contextMenuPage.acceptPopUp();
 
+
     }
 
 

@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8046e423-0eab-4564-854b-119fe8ffbf79" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DynamicLoadingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FramesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NestedFramesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WysiwygeEditorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DynamicLoadingTest/DynamicLoadingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FramesTests/NestedFramesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WysiwygeEditorTests/WysiwygeEditorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ContextMenuPage/ContextMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContextMenuPage/ContextMenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ContextMenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ContextMenuPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/DropdownPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ContextMenuPage/ContextMenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ContextMenuPage/ContextMenuTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,35 +70,18 @@
       <recent name="C:\Users\aspatariu\IdeaProjects\AutomationHeroApp\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.dropdownTest.selectOption2dropdownTest">
-    <configuration name="ContextMenuTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DynamicLoadingTest.dynamicExample1Test">
+    <configuration name="DynamicLoadingTest.dynamicExample1Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ContextMenuPage.*" />
+          <option name="PATTERN" value="DynamicLoadingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ContextMenuPage" />
-      <option name="MAIN_CLASS_NAME" value="ContextMenuPage.ContextMenuTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContextMenuTest.contextBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationJavaTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ContextMenuPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ContextMenuPage" />
-      <option name="MAIN_CLASS_NAME" value="ContextMenuPage.ContextMenuTest" />
-      <option name="METHOD_NAME" value="contextBoxTest" />
+      <option name="PACKAGE_NAME" value="DynamicLoadingTest" />
+      <option name="MAIN_CLASS_NAME" value="DynamicLoadingTest.DynamicLoadingTest" />
+      <option name="METHOD_NAME" value="dynamicExample1Test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -91,16 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntryAdTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NestedFramesTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EntryAdPageTest.*" />
+          <option name="PATTERN" value="FramesTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="EntryAdPageTest" />
-      <option name="MAIN_CLASS_NAME" value="EntryAdPageTest.EntryAdTest" />
+      <option name="PACKAGE_NAME" value="FramesTests" />
+      <option name="MAIN_CLASS_NAME" value="FramesTests.NestedFramesTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -108,17 +106,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntryAdTest.modalWindowTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NestedFramesTests.checkTextFromFrames" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EntryAdPageTest.*" />
+          <option name="PATTERN" value="FramesTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="EntryAdPageTest" />
-      <option name="MAIN_CLASS_NAME" value="EntryAdPageTest.EntryAdTest" />
-      <option name="METHOD_NAME" value="modalWindowTest" />
+      <option name="PACKAGE_NAME" value="FramesTests" />
+      <option name="MAIN_CLASS_NAME" value="FramesTests.NestedFramesTests" />
+      <option name="METHOD_NAME" value="checkTextFromFrames" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,17 +124,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dropdownTest.selectOption2dropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WysiwygeEditorTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationJavaTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dropdown.*" />
+          <option name="PATTERN" value="WysiwygeEditorTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dropdown" />
-      <option name="MAIN_CLASS_NAME" value="dropdown.dropdownTest" />
-      <option name="METHOD_NAME" value="selectOption2dropdownTest" />
+      <option name="PACKAGE_NAME" value="frameTests" />
+      <option name="MAIN_CLASS_NAME" value="WysiwygeEditorTests.WysiwygeEditorTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WysiwygeEditorTests.insertTextInFrame" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationJavaTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WysiwygeEditorTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="frameTests" />
+      <option name="MAIN_CLASS_NAME" value="WysiwygeEditorTests.WysiwygeEditorTests" />
+      <option name="METHOD_NAME" value="insertTextInFrame" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.dropdownTest.selectOption2dropdownTest" />
-        <item itemvalue="TestNG.ContextMenuTest.contextBoxTest" />
-        <item itemvalue="TestNG.EntryAdTest.modalWindowTest" />
-        <item itemvalue="TestNG.EntryAdTest" />
-        <item itemvalue="TestNG.ContextMenuTest" />
+        <item itemvalue="TestNG.DynamicLoadingTest.dynamicExample1Test" />
+        <item itemvalue="TestNG.NestedFramesTests.checkTextFromFrames" />
+        <item itemvalue="TestNG.NestedFramesTests" />
+        <item itemvalue="TestNG.WysiwygeEditorTests" />
+        <item itemvalue="TestNG.WysiwygeEditorTests.insertTextInFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616686012394</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="1">
+      <created>1616707402473</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1616707402473</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

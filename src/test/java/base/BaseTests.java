@@ -43,7 +43,7 @@ public class BaseTests {
                 options.addArguments("window-size=1920,1080");
             }
         }
-        // System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
 
         driver = new ChromeDriver(options);
@@ -62,13 +62,13 @@ public class BaseTests {
     }
 
 
-   @AfterClass
+   /*@AfterClass
     public void driverQuit() {
         if (driver != null) {
             driver.quit();
 
-        }
+        }*/
 
 
-    }
+    //}
 }
